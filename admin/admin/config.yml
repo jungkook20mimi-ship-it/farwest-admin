@@ -1,14 +1,15 @@
 backend:
   name: git-gateway
+  repo: Jungkoook20/mini-shop-it
   branch: main
 
-media_folder: "images"
+media_folder: "static/images"
 public_folder: "/images"
 
 collections:
   - name: "menu"
     label: "Menú de Productos"
-    folder: "menu"
+    folder: "content/menu"
     create: true
     slug: "{{slug}}"
     fields:
