@@ -1,0 +1,382 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Far West Delivery - Comida al estilo del lejano oeste en Capital, San Juan. Hamburguesas, lomos, pachatas y más. Pedí por WhatsApp o visitá nuestro local.">
+   <meta name="keywords" content="delivery, hamburguesas, lomos, pachatas, San Juan, comida, western, Far West">
+   <meta name="author" content="Far West Delivery">
+   
+   <!-- Open Graph para redes sociales -->
+   <meta property="og:title" content="Far West Delivery | Capital, San Juan">
+   <meta property="og:description" content="Comida al estilo del lejano oeste. Delivery y local físico.">
+   <meta property="og:image" content="img/logo.fast.png.jpeg">
+   <meta property="og:url" content="https://farwestdelivery.com">
+   
+   <title>Far West Delivery | Capital, San Juan</title>
+   
+   <!-- Preload del logo -->
+   <link rel="preload" href="img/LOGO.PNG.jpeg" as="image">
+   
+   <!-- Favicon -->
+   <link rel="icon" type="image/png" href="img/LOGO.PNG.jpeg">
+   
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Rye&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+   <!-- Font Awesome (iconos, incluido WhatsApp) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <!-- CSS -->
+   <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+ 
+   <!-- ================= HEADER ================= -->
+   <header class="header" id="header">
+     <div class="container">
+       <div class="header-content">
+         <!-- Logo pequeño en header -->
+         <a href="#inicio" aria-label="Ir al inicio">
+           <img src="img/LOGO.PNG.jpeg" class="logo-header" alt="Far West Delivery Logo" width="80" height="80">
+         </a>
+ 
+         <!-- Menú hamburguesa móvil -->
+         <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" id="menuToggle">
+           <span></span>
+           <span></span>
+           <span></span>
+         </button>
+ 
+         <!-- Navegación -->
+         <nav class="nav" id="nav">
+           <a href="#inicio">Inicio</a>
+           <a href="#sobre">Sobre nosotros</a>
+           <a href="#que-encontrar">Qué vas a encontrar</a>
+           <a href="#galeria">Galería</a>
+           <a href="#menu">Menú</a>
+           <a href="#contacto">Contacto</a>
+         </nav>
+       </div>
+     </div>
+   </header>
+ 
+   <!-- ================= HERO / PORTADA ================= -->
+   <section id="inicio" class="hero">
+     <div class="hero-overlay"></div>
+     <div class="hero-texture"></div>
+     <div class="hero-content">
+       <!-- LOGO PRINCIPAL CENTRADO Y GRANDE -->
+       <img src="img/LOGO.PNG.jpeg" class="logo-principal" alt="Far West Delivery" width="600" height="400">
+ 
+       <!-- Subtítulo -->
+       <p class="hero-text">El sabor del oeste</p>
+ 
+       <!-- Botón WhatsApp -->
+       <a href="https://wa.me/5492644560389?text=Hola!%20Quiero%20hacer%20un%20pedido" 
+          class="btn-whatsapp" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          aria-label="Hacer pedido por WhatsApp">
+         📱 Pedir por WhatsApp
+       </a>
+     </div>
+   </section>
+ 
+   <!-- ================= SOBRE NOSOTROS ================= -->
+   <section id="sobre" class="section">
+     <div class="container">
+       <h2 class="section-title">Sobre Far West Delivery</h2>
+ 
+       <div class="sobre-content">
+         <p class="text">
+           <strong>Far West Delivery</strong> nació del amor por la comida casera con el auténtico espíritu del lejano oeste.
+           Ofrecemos platos abundantes y llenos de sabor: hamburguesas jugosas, lomos completos, pachatas y mucho más.
+         </p>
+         
+         <p class="text">
+           Con nuestro servicio de <strong>delivery</strong>, podés disfrutar de tus platos favoritos en la comodidad de tu casa, 
+           siempre con ingredientes frescos y la atención que nos distingue.
+         </p>
+ 
+         <p class="text">
+           Además de nuestro delivery, contamos con un <strong>local físico en Marquesado, Rivadavia</strong>, 
+           donde podés comer en un ambiente cómodo y con identidad propia.
+           Creamos un espacio pensado para compartir con amigos, en pareja o en familia, con la estética inspirada en el lejano oeste.
+         </p>
+ 
+         <!-- Foto del local -->
+         <div class="local-foto">
+           <img src="img/local.png.jpeg" alt="Local Far West en Marquesado, Rivadavia">
+         </div>
+ 
+         <div class="cta-local">
+           <p class="emoji-icon">🏪</p>
+           <p class="cta-text">
+             <strong>¿Querés conocer nuestro local físico?</strong>
+           </p>
+           <a href="https://maps.google.com" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="link-local">
+             📍 Ver ubicación en Google Maps →
+           </a>
+         </div>
+       </div>
+     </div>
+   </section>
+    
+   <!-- ================= QUÉ VAS A ENCONTRAR ================= -->
+   <section id="que-encontrar" class="section section-dark">
+     <div class="container">
+       <h2 class="section-title">Qué vas a encontrar</h2>
+   
+       <div class="grid">
+         <article class="card">
+           <span class="card-icon">🍔</span>
+           <h3>Hamburguesas</h3>
+           <p>Jugosas y abundantes</p>
+         </article>
+         
+         <article class="card">
+           <span class="card-icon">🥪</span>
+           <h3>Lomos</h3>
+           <p>Completos al estilo western</p>
+         </article>
+         
+         <article class="card">
+           <span class="card-icon">🌮</span>
+           <h3>Pachatas</h3>
+           <p>Especiales de la casa</p>
+         </article>
+         
+         <article class="card">
+           <span class="card-icon">🍟</span>
+           <h3>Papas fritas</h3>
+           <p>Crujientes y doradas</p>
+         </article>
+       </div>
+     </div>
+   </section>
+ 
+   <!-- ================= GALERÍA ================= -->
+   <section id="galeria" class="section">
+     <div class="container">
+       <h2 class="section-title">Galería</h2>
+ 
+       <div class="galeria-grid">
+         <!-- IMAGEN 1: LOCAL -->
+         <figure class="galeria-item">
+           <img src="img/lomos.png.jpeg" alt="Local Far West Delivery" loading="lazy">
+           <figcaption>Lomos</figcaption>
+         </figure>
+         
+         <!-- IMAGEN 2: COMIDA 1 -->
+         <figure class="galeria-item">
+           <img src="img/pachata.png.jpeg" alt="Hamburguesa Far West" loading="lazy">
+           <figcaption>Pachatas</figcaption>
+         </figure>
+         
+         <!-- IMAGEN 3: COMIDA 2 -->
+         <figure class="galeria-item">
+           <img src="img/papas.png.jpeg" alt="Lomo completo" loading="lazy">
+           <figcaption>Papas</figcaption>
+         </figure>
+         
+         <!-- IMAGEN 4: COMIDA 3 -->
+         <figure class="galeria-item">
+           <img src="img/pizza.png.jpeg" alt="Pachata especial" loading="lazy">
+           <figcaption>Pizzas</figcaption>
+         </figure>
+ 
+         <!-- IMAGEN 5: COMIDA 5 -->
+         <figure class="galeria-item">
+           <img src="img/fritas.farswest.png.jpeg" alt="Pachata especial" loading="lazy">
+           <figcaption>Fritas</figcaption>
+         </figure>
+ 
+         <!-- IMAGEN 6: COMIDA 6 -->
+         <figure class="galeria-item">
+           <img src="img/tostadopng.jpeg" alt="Papas fritas" loading="lazy">
+           <figcaption>Tostadas</figcaption>
+         </figure>
+       </div>
+     </div>
+   </section>
+        
+ <!-- ================= MENÚ ================= -->
+<section id="menu" class="section section-dark">
+  <div class="container">
+    <h2 class="section-title">Nuestro Menú</h2>
+
+    <!-- Loading state: Mostrar mientras se cargan los datos -->
+    <div id="menu-loading" class="menu-loading" style="display: none;">
+      <div class="spinner"></div>
+      <p>Cargando menú actualizado...</p>
+    </div>
+
+    <!-- Lista del menú (se llena dinámicamente con JS) -->
+    <div id="menu-list" class="menu-list"></div>
+
+    <!-- Error state: Mostrar si ocurre un error al cargar los datos -->
+    <div id="menu-error" class="menu-error" style="display: none;">
+      <p>⚠️ No pudimos cargar el menú en este momento.</p>
+      <p>Contactanos por WhatsApp para conocer nuestros productos y precios.</p>
+    </div>
+
+    <!-- Nota de menú -->
+    <p class="menu-note">
+      💡 <em>Los precios se actualizan automáticamente desde nuestra base de datos</em>
+    </p>
+  </div>
+</section>
+
+   <!-- ================= CONTACTO ================= -->
+   <section id="contacto" class="section">
+     <div class="container">
+       <h2 class="section-title">Contacto</h2>
+ 
+       <div class="contact-grid">
+         <article class="contact-card">
+           <span class="contact-icon">📱</span>
+           <h3>WhatsApp</h3>
+           <p>Hacé tu pedido</p>
+           <a href="https://wa.me/5492644560389" class="btn-contact" target="_blank" rel="noopener noreferrer">
+             Enviar mensaje
+           </a>
+         </article>
+ 
+         <article class="contact-card">
+           <span class="contact-icon">📍</span>
+           <h3>Ubicación</h3>
+         <p>Ignacio de la Rosa 626, Oeste, Capital, San Juan</p>
+           <a href="https://maps.google.com" class="btn-contact" target="_blank" rel="noopener noreferrer">
+             Ver en mapa
+           </a>
+         </article>
+ 
+         <article class="contact-card">
+           <span class="contact-icon">🕒</span>
+           <h3>Horarios</h3>
+           <p>Lun-Dom: 19:00 - 00:00</p>
+         </article>
+       </div>
+          <!-- Mapa -->
+       <div class="map-container">
+        <section id="mapa">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1700.14!2d-68.5365!3d-31.5381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1706000000000!5m2!1ses!2sar"
+    width="100%"
+    height="350"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</section>
+   </div> <!-- Cierre de .map-container -->
+    </div> <!-- Cierre de .container -->
+</section> <!-- Cierre de la sección #contacto -->
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <p>🤠 Far West Delivery</p>
+      <p>&copy; 2025 - Todos los derechos reservados</p>
+      <div class="social-links">
+        <a href="https://wa.me/5492644560389" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <span>|</span>
+        <a href="https://www.instagram.com/farwestrbar?igsh=dW5lcjE2ZGl0ejBw" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <span></span>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+   <!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/5492644560389?text=Hola!%20Quiero%20hacer%20un%20pedido" 
+   class="whatsapp-float" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   aria-label="Contactar por WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+ 
+  <!-- JavaScript del Menú -->
+  <script>
+    const menuData = {
+      'Hamburguesas': [
+        { name: 'Hamburguesa Especial', description: 'Lechuga, tomate, hamburguesa casera, jamón y queso', price: 8000 },
+        { name: 'Hamburguesa Completa', description: 'Lechuga, tomate, hamburguesa casera, jamón, queso y huevo', price: 9000 },
+        { name: 'Hamburguesa Far West', description: 'Lechuga, tomate, hamburguesa casera doble, doble jamón, doble queso, doble huevo, cheddar', price: 15000 }
+      ],
+      'Lomos': [
+        { name: 'Lomo Especial', description: 'Lechuga, tomate, carne de lomo, queso, jamón', price: 15000 },
+        { name: 'Lomo Completo', description: 'Lechuga, tomate, carne de lomo, queso, jamón, huevo', price: 16000 },
+        { name: 'Lomo Farwest', description: 'Lechuga, tomate, carne de lomo, queso, jamón, huevo, panceta, verduras asadas, queso cheddar', price: 18000 }
+      ],
+      'Pachatas': [
+        { name: 'Pachata Especial', description: 'Lechuga, tomate, carne de lomo, jamón y queso', price: 15000 },
+        { name: 'Pachata Completa', description: 'Lechuga, tomate, carne de lomo, jamón, queso y huevo', price: 16000 },
+        { name: 'Pachata Far West', description: 'Lechuga, tomate, carne de lomo, jamón, queso, huevo, morrón asado, panceta y cheddar', price: 18000 }
+      ],
+      'Sándwiches y Tostados': [
+        { name: 'Barroluco', description: 'Pan de miga, jamón, queso, huevo, lechuga, tomate y carne de lomo (para 2 personas)', price: 23000 },
+        { name: 'Tostado Triple', description: 'Pan de miga, jamón y queso tostado', price: 8000 },
+        { name: 'Tostado Americano Triple', description: 'Pan de miga, jamón, queso, lechuga y tomate', price: 9000 }
+      ],
+      'Papas Fritas': [
+        { name: 'Fritas Chicas', description: 'Un clásico, 1 o 2 personas (solo para la mesa)', price: 4000 },
+        { name: 'Fritas Muy Grandes', description: 'Muuuuuuuuuy grandes !!! 4 o 5 personas', price: 8000 },
+        { name: 'Frita Far West Grande', description: 'Frita, jamón, queso, cheddar, provenzal, mayo casera, 2 huevos fritos', price: 9000 },
+        { name: 'Frita Far West Muy Grandes', description: 'Frita, jamón, queso, cheddar, provenzal, mayo casera, 4 huevos fritos', price: 12000 }
+      ],
+      'Salchipapas': [
+        { name: 'Salchipapas Muy Grandes', description: 'Fritas, salchichas, jamón, queso, mayo casera y ketchup', price: 12000 }
+      ]
+    };
+
+    function createProductCard(product) {
+      const card = document.createElement("div");
+      card.className = "menu-card";
+      card.innerHTML = `
+        <h4 class="menu-item-name">${product.name}</h4>
+        <p class="menu-item-desc">${product.description}</p>
+        <span class="menu-item-price">$${product.price.toLocaleString('es-AR')}</span>
+      `;
+      return card;
+    }
+
+    function inicializarTodo() {
+      const menuList = document.getElementById("menu-list");
+      const loading = document.getElementById("menu-loading");
+      if (!menuList) return;
+
+      menuList.innerHTML = "";
+      for (const category in menuData) {
+        const title = document.createElement("h3");
+        title.className = "menu-category";
+        title.textContent = category;
+        menuList.appendChild(title);
+
+        const container = document.createElement("div");
+        container.className = "menu-category-container";
+        menuData[category].forEach(p => container.appendChild(createProductCard(p)));
+        menuList.appendChild(container);
+      }
+      if (loading) loading.style.display = "none";
+
+      // Menú móvil
+      const toggle = document.getElementById('menuToggle');
+      const nav = document.getElementById('nav');
+      if (toggle && nav) {
+        toggle.onclick = () => nav.classList.toggle('active');
+        nav.querySelectorAll('a').forEach(link => {
+          link.onclick = () => nav.classList.remove('active');
+        });
+      }
+    }
+
+    window.onload = inicializarTodo;
+  </script>
