@@ -1,15 +1,14 @@
 backend:
   name: git-gateway
-  repo: Jungkoook20/mini-shop-it  # <--- CORREGIDO (quité /fanvest-admin)
   branch: main
 
-media_folder: "static/images"
+media_folder: "images"
 public_folder: "/images"
 
 collections:
   - name: "menu"
     label: "Menú de Productos"
-    folder: "content/menu"
+    folder: "menu"
     create: true
     slug: "{{slug}}"
     fields:
