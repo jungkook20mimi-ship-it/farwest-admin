@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: jungkook20mimi-ship-it/farwest-admin  # Asegúrate de que esta línea tenga tu usuario y nombre de repo
+  repo: Jungkoook20/mini-shop-it
   branch: main
 
 media_folder: "static/images"
@@ -10,7 +10,7 @@ collections:
   - name: "menu"
     label: "Menú de Productos"
     folder: "content/menu"
-    create: true  # Cambié el "true" a un valor válido, ya no debería generar error
+    create: true
     slug: "{{slug}}"
     fields:
       - { label: "Nombre del Producto", name: "title", widget: "string" }
